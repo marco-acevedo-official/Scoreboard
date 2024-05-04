@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1714859154">
+  <File Type="ROUTE-PWR" Name="Scoreboard_Final_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Scoreboard_Final.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Scoreboard_Final_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Scoreboard_Final_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="Scoreboard_Final_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="Scoreboard_Final.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Scoreboard_Final_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Scoreboard_Final_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="Scoreboard_Final_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Scoreboard_Final_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Scoreboard_Final_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Scoreboard_Final.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Scoreboard_Final_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Scoreboard_Final_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Scoreboard_Final_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Scoreboard_Final_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Scoreboard_Final_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Scoreboard_Final_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Scoreboard_Final_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Scoreboard_Final_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Scoreboard_Final_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Scoreboard_Final_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Scoreboard_Final_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Scoreboard_Final.bin"/>
+  <File Type="PLACE-TIMING" Name="Scoreboard_Final_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Scoreboard_Final_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Scoreboard_Final_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Scoreboard_Final_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Scoreboard_Final.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Scoreboard_Final_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Scoreboard_Final_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Scoreboard_Final_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Scoreboard_Final.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Scoreboard_Final_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Scoreboard_Final_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Scoreboard_Final_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Scoreboard_Final_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Scoreboard_Final_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Scoreboard_Final_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Scoreboard_Final_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Scoreboard_Final_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Scoreboard_Final_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Scoreboard_Final_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Scoreboard_Final_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Scoreboard_Final_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Scoreboard_Final_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Scoreboard_Final_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Scoreboard_Final_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Scoreboard_Final_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Scoreboard_Final_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Scoreboard_Final_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Scoreboard_Final_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Scoreboard_Final_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Scoreboard_Final_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Scoreboard_Final_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Scoreboard_Final_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Scoreboard_Final_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Scoreboard_Final_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Scoreboard_Final_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Scoreboard_Final_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Scoreboard_Final.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Scoreboard_Final_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Scoreboard_Final_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Scoreboard_Final.nky"/>
+  <File Type="BITSTR-BMM" Name="Scoreboard_Final_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Scoreboard_Final.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Scoreboard_Final_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Scoreboard_Final_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Scoreboard_Final.rcfi"/>
+  <File Type="CFI_FILE" Name="Scoreboard_Final.cfi"/>
+  <File Type="RNPI_FILE" Name="Scoreboard_Final.rnpi"/>
+  <File Type="NPI_FILE" Name="Scoreboard_Final.npi"/>
+  <File Type="RBD_FILE" Name="Scoreboard_Final.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Scoreboard_Final.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Scoreboard_Final.sysdef"/>
+  <File Type="BG-BGN" Name="Scoreboard_Final.bgn"/>
+  <File Type="BG-DRC" Name="Scoreboard_Final.drc"/>
+  <File Type="RDI-RDI" Name="Scoreboard_Final.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Scoreboard_Final_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Scoreboard_Final_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Debouncer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Synchronizer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Button_Filter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Scoreboard.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Scoreboard_Final.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Scoreboard_Final"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Arty-S7-50-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/digilent-xdc-master/Arty-S7-50-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1714854908"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Button_Filter.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
