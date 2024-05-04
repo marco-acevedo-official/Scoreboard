@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Synchronizer_Tb_behav" "xil_defaultlib.Synchronizer_Tb" -log "elaborate.log" 

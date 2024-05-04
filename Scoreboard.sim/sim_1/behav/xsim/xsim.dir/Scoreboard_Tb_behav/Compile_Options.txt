@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Scoreboard_Tb_behav" "xil_defaultlib.Scoreboard_Tb" -log "elaborate.log" 
