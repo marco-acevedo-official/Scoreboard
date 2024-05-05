@@ -8,7 +8,7 @@ end Scoreboard_Final_Tb;
 
 architecture Simulation of Scoreboard_Final_Tb is
 constant period : time := 10 ns;
-constant Register_Size : integer := 4;
+constant Register_Size : integer := 1;
 signal increase, decrease, clock, reset : std_logic := '0';
 signal Display1, Display0: unsigned(6 downto 0) := (others => '0');
 signal BCD1, BCD0 : std_logic_vector(3 downto 0) := (others => '0');
