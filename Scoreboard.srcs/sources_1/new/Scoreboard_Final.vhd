@@ -14,7 +14,9 @@ entity Scoreboard_Final is
 end Scoreboard_Final;
 
 architecture Connections of Scoreboard_Final is
-	constant displayTime : time := 20000 ns;
+	constant one : std_logic := '1';
+	constant zero : std_logic := '0';
+	constant displayTime : time := 100 ns;-- 20000 ns;
 	signal	inc_f, dec_f : std_logic := '0';
 	signal	seg7disp1_F, seg7disp0_F: unsigned(6 downto 0) := (others => '0');
 	signal	bcd1_out_F, bcd0_out_F : std_logic_vector(3 downto 0) := (others => '0');
@@ -60,8 +62,13 @@ begin
 	alternateDisplay:process
 	begin
 	--pmod "gfedcbaP" where P is display select
-	intra_pmod <= 
-		
+	while true loop
+		intra_pmod <= std_logic_vector(seg7disp1_F & one);
+		pmod <= intra_pmod;
+		wait for displayTime / 2;
+		intra_pmod <= std_logic_vector(seg7disp0_F & zero);
+		pmod <= intra_pmod;
+		wait for displayTime / 2;
+	end loop;
 	end process;
-	pmod <= intra_pmod;
 end Connections;

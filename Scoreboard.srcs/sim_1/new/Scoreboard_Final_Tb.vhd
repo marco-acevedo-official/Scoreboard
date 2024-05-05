@@ -12,23 +12,20 @@ constant Register_Size : integer := 4;
 signal increase, decrease, clock, reset : std_logic := '0';
 signal Display1, Display0: unsigned(6 downto 0) := (others => '0');
 signal BCD1, BCD0 : std_logic_vector(3 downto 0) := (others => '0');
-
+signal DisplayOut : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
 begin
 
 	Scoreboard_F_Instance : entity work.Scoreboard_Final
     Generic map (
-        clock_period => period,
-        reg_width => Register_Size
+        clock_period_F => period,
+        reg_width_F => Register_Size
     )
     Port map (
         clk_F => clock,
         rst_F => reset,
         inc_FR => increase,
         dec_FR => decrease,
-        seg7disp1_F => Display1,
-        seg7disp0_F => Display0,
-        bcd1_out_F => BCD1,
-        bcd0_out_F => BCD0
+        pmod => DisplayOut
     );
     
     clock_process : process
@@ -44,6 +41,24 @@ begin
 	stimulus: process
 	begin 
 		increase <= '1';
+		wait for period;
+		
+		increase <= '0';
+		wait for period;
+		
+		increase <= '1';
+		wait for period;
+		
+		increase <= '0';
+		wait for period;
+		
+		increase <= '1';
+		wait for period;
+		
+		increase <= '0';
+		wait for period;
+		
+				increase <= '1';
 		wait for period;
 		
 		increase <= '0';

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1714859112" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Button_Filter.dcp">
   <File Type="PA-TCL" Name="Scoreboard_Final.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Scoreboard_Final_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Scoreboard_Final_reports.tcl"/>
   <File Type="RDS-RDS" Name="Scoreboard_Final.vds"/>
-  <File Type="RDS-UTIL" Name="Scoreboard_Final_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Scoreboard_Final_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Button_Filter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Button_Filter_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Scoreboard_Final.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Scoreboard_Final_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Scoreboard_Final_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Debouncer.vhd">
