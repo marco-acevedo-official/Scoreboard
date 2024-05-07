@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marco/Documents/Vivado/Scoreboard/Scoreboard.srcs/sim_1/new/Scoreboard_Final_Tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Scoreboard_Final_Tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marco/Documents/Vivado/Scoreboard/Scoreboard.srcs/sim_1/new/Scoreboard_Tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Scoreboard_Tb'

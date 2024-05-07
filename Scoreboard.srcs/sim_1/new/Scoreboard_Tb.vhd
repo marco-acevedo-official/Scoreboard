@@ -61,6 +61,18 @@ begin
 		increase <= '0';
 		wait for period;
 		
+				increase <= '1';
+		wait for period;
+		
+		increase <= '0';
+		wait for period;
+		
+		decrease <= '1';
+		wait for period;
+		
+		decrease <= '0';
+		wait for period;
+		
 		wait;
 	end process stimulus;
 
